@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAMAZONE</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    
+    /*Lebar search nya*/
+    form.example input[type=text] {
+      padding: 10px;
+      font-size: 17px;
+      border: 1px solid grey;
+      float: left;
+      width: 90%;       /*Lebar nya*/
+      background: #f1f1f1;
+    }
+    
+    /*Tombol nya*/
+    form.example button {
+      float: left;
+      width: 10%;
+      padding: 10px;
+      background: #2196F3;
+      color: white;
+      font-size: 17px;
+      border: 1px solid grey;
+      border-left: none;
+      cursor: pointer;
+    }
+    
+    form.example button:hover {
+      background: #0b7dda;
+    }
+    
+    form.example::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header" class="header-utama">
+            <h1 style="font-size: 48px; " >KAMA-ZONE</h1>
+        </div>
+        <div class="row">
+            <div class="col-3 col-m-3">
+                <div id="silebar" style="position: fixed;">
+                    <div id="judul_silebar">
+                        MENU
+                    </div>
+                    <br>
+                    <div id="isi_silebar">
+                        <ul>
+                            <li><a href="#">Beranda</a></li>
+                            <br>
+                            <li><a href="#Laptop">Laptop Gaming</a></li>
+                            <br>
+                            <li><a href="#Handphone">Handphone</a></li>
+                            <br>
+                            <li><a href="#Tablet">Tablet</a></li>
+                            <br>
+                            <li><a href="#Game Console">Game Console</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9 col-m-9">   <!--Nilai default col-9 col-m-7-->
+                <div id="konten" >
+                    
+                    <form class="example" action="/action_page.php" style="float: left;  width: 80%;">
+                        <input type="text" placeholder="Cari di Kamazone..." name="search2">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                    <button style="width: 205px; height: 40px; background-color: #fa63acad; " class="button-keranjang"><img src="Gambar/Keranjang.png" style="width: 40px; margin-left: 10px;"></button>
+
+                    <div class="col-12 col-m-12"> <!--Nizlai default col-12 col-m-12-->
+<!--HANDPHONE-->        <h2 id="Laptop">Laptop Gaming</h2>
+                        <div class="konten-1" style="float: left; ">
+                            <h3 style="margin-left: 85px; font-size: 20px; "> ASUS ROG G513RC </h3>
+                        <img src="Gambar/ASUS_ROG_ (pertama).jpg" style="width: 350px; height: 250px;" >
+                        <p style="width: 300px; border-radius: 5px; margin-left: 40px; font-size: 18px;">ASUS ROG G513RC GeForce RTX™ 3050 - RYZEN 7 6800H 8GB 512ssd - GREY, 8GB </p> 
+                        <h2 style="margin-left: 40px;">Rp17.499.000</h2>
+                        <h3 style="border-radius: 1px; color: red; background-color: pink; width: 43px; float: left; margin: 2px;">24%</h3>
+                        <h3 style="color: gray;"><s>RP22.999.000</s></h3> 
+<!--Button Link-->      <a href="https://www.tokopedia.com/protechcom/asus-rog-strix-g15-g513rc-ryzen-7-6800h-8g-512gb-rtx3050-144hz-ohs-w11-16gb?extParam=ivf%3Dfalse%26src%3Dsearch"><button style="float: right;" class="button-1">Buy</button></a>
+<!--Button biasa-->     <!--<button style="float: right;" class="button-1">Buy</button>-->
+                        <img src="Gambar/Bintang.png" style="width: 30px; float: left;">
+                        <p style="float: left; margin-top:8px; color: gray;">5.0 | 100+ terjual</p>
+                        </div> 
+
+                        <div class="konten-1" style="margin-left: 450px;"> 
+                            <h3 style="margin-left: 60px; font-size: 20px; "> ACER NITRO 5 AN515-58 </h3>
+                        <img src="Gambar/ACER_NITRO_5_(pertama).jpg" style="width: 350px; height: 250px;" >
+                        <p style="width: 300px; border-radius: 5px; margin-left: 40px; font-size: 18px;">Acer Nitro 5 AN515-58 GeForce RTX® 3050 - 144Hz intel i5 12500H 8/16GB - 16GB 60SRGB </p> 
+                        <h2 style="margin-left: 40px;">Rp14.949.000</h2>
+                        <h3 style="border-radius: 1px; color: red; background-color: pink; width: 43px; float: left; margin: 2px;">36%</h3>
+                        <h3 style="color: gray;"><s>RP23.199.000</s></h3> 
+                        <a href="https://www.tokopedia.com/nvidiageforcelt/acer-nitro-5-an515-58-geforce-rtx-3060-ryzen-7-6800h-16gb-512-165hz-no-bundling-16gb"><button style="float: right;" class="button-1">Buy</button></a>
+                        <!--<button style="float: right;" class="button-1">Buy</button>-->
+                        <img src="Gambar/Bintang.png" style="width: 30px; float: left;">
+                        <p style="float: left; margin-top:8px; color: gray;">5.0 | 21 terjual</p>
+                        <br><br>
+                        </div> 
+
+                        <br><br><br>
+
+                        <div class="konten-1" style="float: left;">
+                            <h3 style="margin-left: 75px; font-size: 20px; "> Lenovo LOQ Gaming </h3>
+                        <img src="Gambar/LENOVO LOQ Gaming (pertama).png" style="width: 350px; height: 250px;" >
+                        <p style="width: 300px; border-radius: 5px; margin-left: 40px; font-size: 18px;">Lenovo LOQ Gaming i5-13420H RTX4050 512GB SSD 8GB WIN11+OHS</p> 
+                        <h2 style="margin-left: 40px;">Rp15.799.000</h2>
+                        <h3 style="border-radius: 1px; color: red; background-color: pink; width: 43px; float: left; margin: 2px;">17%</h3>
+                        <h3 style="color: gray;"><s>RP18.999.000</s></h3> 
+                        <button style="float: right;" class="button-1">Buy</button>
+                        <img src="Gambar/Bintang.png" style="width: 30px; float: left;">
+                        <p style="float: left; margin-top:8px; color: gray;">5.0 | 10 terjual</p>
+                        </div> 
+                        
+                        <div class="konten-1" style="margin-left: 450px;">
+                            <h3 style="margin-left: 60px; font-size: 20px; "> MSI THIN GF63 11UCX </h3>
+                        <img src="Gambar/MSI_THIN_GF63 _11LUX (pertama).jpg" style="width: 350px; height: 250px;" >
+                        <p style="width: 300px; border-radius: 5px; margin-left: 40px; font-size: 18px;">MSI THIN GF63 11UCX GeForce RTX™ 2050 - i5 GEN 11 8GB/16GB 512SSD - RAM 8GB </p> 
+                        <h2 style="margin-left: 40px;">RRp9.395.000</h2>
+                        <h3 style="border-radius: 1px; color: red; background-color: pink; width: 43px; float: left; margin: 2px;">41%</h3>
+                        <h3 style="color: gray;"><s>RP15.999.000</s></h3> 
+                        <button style="float: right;" class="button-1">Buy</button>
+                        <img src="Gambar/Bintang.png" style="width: 30px; float: left;">
+                        <p style="float: left; margin-top:8px; color: gray;">5.0 | 18 terjual</p>
+                        <br><br>
+                        </div> 
+                        
+                        <br><br><br>
+
+
+<!--HANDPHON-->         <h2 id="Handphone">Handphone</h2>   
+                        <div class="konten-1" style="float: left;">
+                            <h3 style="margin-left: 127px; font-size: 20px; "> OPPO A31 </h3>
+                        <img src="Gambar/Oppo_A31_(pertama).jpg" style="width: 350px; height: 250px;" >
+                        <p style="width: 300px; border-radius: 5px; margin-left: 40px; font-size: 18px;">Oppo A31 6GB / 128GB 4230mAh AI Triple Camera Smartphone                        </p> 
+                        <h2 style="margin-left: 40px;">Rp719.000</h2>
+                        <h3 style="border-radius: 1px; color: red; background-color: pink; width: 43px; float: left; margin: 2px;">16%</h3>
+                        <h3 style="color: gray;"><s>RP859.000</s></h3> 
+                        <button style="float: right;" class="button-1">Buy</button>
+                        <img src="Gambar/Bintang.png" style="width: 30px; float: left;">
+                        <p style="float: left; margin-top:8px; color: gray;">4.8 | 100+ terjual</p>
+                        </div>
+
+                        <div class="konten-1" style="margin-left: 450px;">
+                            <h3 style="margin-left: 60px; font-size: 20px; "> Xiaomi Redmi Note 12  </h3>
+                        <img src="Gambar/Xiaomi_Redmi_Note12_(pertama).jpg" style="width: 230px; height: 250px; margin-left: 55px;" >
+                        <p style="width: 300px; border-radius: 5px; margin-left: 40px; font-size: 18px;">Xiaomi Redmi Note 12 - Ice Blue, PROMO 4GB+128GB</p> 
+                        <h2 style="margin-left: 40px;">Rp1.960.500</h2>
+                        <h3 style="border-radius: 1px; color: red; background-color: pink; width: 43px; float: left; margin: 2px;">41%</h3>
+                        <h3 style="color: gray;"><s>RP2.399.000</s></h3> 
+                        <button style="float: right;" class="button-1">Buy</button>
+                        <img src="Gambar/Bintang.png" style="width: 30px; float: left;">
+                        <p style="float: left; margin-top:8px; color: gray;">4.9 | 49 terjual</p>
+                        <br><br>
+                        </div> 
+
+                        <br><br><br>
+
+
+<!--TABLET-->           <h2 id="Tablet">Tablet</h2>
+                        <div class="konten-1" style="float: left;">
+                            <h3 style="margin-left: 80px; font-size: 20px; "> Samsung Galaxy Tab S6 Lite </h3>
+                        <img src="Gambar/Samsung_Galaxy_Tab_S6Lite_(pertama)_.jpg" style="width: 230px; height: 250px; margin-left: 65PX;" >
+                        <p style="width: 300px; border-radius: 5px; margin-left: 40px; font-size: 18px;">Samsung Galaxy Tab S6 Lite 2022 4/64GB</p> 
+                        <h2 style="margin-left: 40px;">Rp3.924.000</h2>
+                        <h3 style="border-radius: 1px; color: red; background-color: pink; width: 43px; float: left; margin: 2px;">11%</h3>
+                        <h3 style="color: gray;"><s>RP4.399.000</s></h3> 
+                        <button style="float:right;" class="button-1">Buy</button>
+                        <img src="Gambar/Bintang.png" style="width: 30px; float: left;">
+                        <p style="float: left; margin-top:8px; color: gray;">4.9 | 61 terjual</p>
+                        </div>
+
+                        <div class="konten-1" style="margin-left: 450px;">
+                            <h3 style="margin-left: 60px; font-size: 20px; "> iPad Pro 6th Gen 2022  </h3>
+                        <img src="Gambar/Ipad_pro_6th_gen2022_(pertama).jpg" style="width: 230px; height: 250px; margin-left: 75px;" >
+                        <p style="width: 300px; border-radius: 5px; margin-left: 40px; font-size: 18px;">iPad Pro 6th Gen 2022 11 Inch 128GB Wifi Only M2 Chip Grey Silver - INTER, Silver FS</p> 
+                        <h2 style="margin-left: 40px;">Rp11.593.000</h2>
+                        <h3 style="border-radius: 1px; color: red; background-color: pink; width: 33px; float: left; margin: 2px;">8%</h3>
+                        <h3 style="color: gray;"><s>RP12.580.512</s></h3> 
+                        <button style="float: right;" class="button-1">Buy</button>
+                        <img src="Gambar/Bintang.png" style="width: 30px; float: left;">
+                        <p style="float: left; margin-top:8px; color: gray;">5.0 | 100+ terjual</p>
+                        <br><br>
+                        </div> 
+
+                        <br><br><br>
+
+
+<!--GAME CONSOLE-->     <h2 id="Game Console">Game Console</h2>
+                        <div class="konten-1" style="float: left;">
+                            <h3 style="margin-left: 107px; font-size: 20px; "> STEAM DECK </h3>
+                        <img src="Gambar/Steam_Deck_(kedua).png" style="width: 350px; height: 250px;" >
+                        <p style="width: 300px; border-radius: 5px; margin-left: 40px; font-size: 18px;">Steam Deck Valve Handheld Gaming 512GB 256GB 64GB PC Portable Gaming - 64GB</p> 
+                        <h2 style="margin-left: 40px;">R7.888.000</h2>
+                        <h3 style="border-radius: 1px; color: red; background-color: pink; width: 33px; float: left; margin: 2px;">4%</h3>
+                        <h3 style="color: gray;"><s>RP8.175.000</s></h3> 
+                        <button style="float: right;" class="button-1">Buy</button>
+                        <img src="Gambar/Bintang.png" style="width: 30px; float: left;">
+                        <p style="float: left; margin-top:8px; color: gray;">4.8 | 100+ terjual</p>
+                        </div>
+
+                        <div class="konten-1" style="margin-left: 450px;">
+                            <h3 style="margin-left: 90px; font-size: 20px; "> ASUS ROG ALLY  </h3>
+                        <img src="Gambar/Asus_Rog_Ally_(pertama).jpg" style="width: 350px; height: 250px;" >
+                        <p style="width: 300px; border-radius: 5px; margin-left: 40px; font-size: 18px;">ASUS ROG ALLY GAMING AMD RYZEN Z1 EXTREME 16GB 512SSD 7.0FHD 120HZ - Rog Ally 16/512</p> 
+                        <h2 style="margin-left: 40px;">RpRp10.850.000</h2>
+                        <h3 style="border-radius: 1px; color: red; background-color: pink; width: 43px; float: left; margin: 2px;">28%</h3>
+                        <h3 style="color: gray;"><s>RP14.999.000</s></h3> 
+                        <button style="float: right;" class="button-1">Buy</button>
+                        <img src="Gambar/Bintang.png" style="width: 30px; float: left;">
+                        <p style="float: left; margin-top:8px; color: gray;">4.9 | 100+ terjual</p>
+                        <br><br>
+                        </div> 
+
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        <div style="clear:both"></div>
+        <div class="row">
+            <div id="footer" style="background-color: #2a475e; ">
+                <div id="text">
+                     <Footer style="margin-top: 30px;">Copyright © 2023 KAMAZONE</Footer>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

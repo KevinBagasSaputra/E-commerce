@@ -1,0 +1,261 @@
+* {
+  /*Keseluruhan*/
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+/* For Mobile Phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+/*Tablet*/
+@media only screen and (min-width: 600px) {
+  /* For tablets */
+  .col-m-1 {
+    width: 8.33%;
+  }
+  .col-m-2 {
+    width: 16.66%;
+  }
+  .col-m-3 {
+    width: 25%;
+  }
+  .col-m-4 {
+    width: 33.33%;
+  }
+  .col-m-5 {
+    width: 41.66%;
+  }
+  .col-m-6 {
+    width: 50%;
+  }
+  .col-m-7 {
+    width: 58.33%;
+  }
+  .col-m-8 {
+    width: 66.66%;
+  }
+  .col-m-9 {
+    width: 75%;
+  }
+  .col-m-10 {
+    width: 83.33%;
+  }
+  .col-m-11 {
+    width: 91.66%;
+  }
+  .col-m-12 {
+    width: 100%;
+  }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 768px) {
+  /*For Desktop*/
+  .col-m-1 {
+    width: 8.33%;
+  }
+  .col-m-2 {
+    width: 16.66%;
+  }
+  .col-m-3 {
+    width: 25%;
+  }
+  .col-m-4 {
+    width: 33.33%;
+  }
+  .col-m-5 {
+    width: 41.66%;
+  }
+  .col-m-6 {
+    width: 50%;
+  }
+  .col-m-7 {
+    width: 58.33%;
+  }
+  .col-m-8 {
+    width: 66.66%;
+  }
+  .col-m-9 {
+    width: 75%;
+  }
+  .col-m-10 {
+    width: 83.33%;
+  }
+  .col-m-11 {
+    width: 91.66%;
+  }
+  .col-m-12 {
+    width: 100%;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  background-image: url(); /*Masukan Link Gambar*/
+  font-family: Tahoma, Geneva, sans-serif;
+  background-color: #2a475e;
+}
+
+#wrap {
+  width: 95%;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+  -moz-box-shadow: 0px 0px 10px #000;
+  -webkit-box-shadow: 0px 0px 10px #000;
+  box-shadow: 0px 0px 10px #000;
+}
+
+#header {
+  height: 150px;
+  background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1728794025261657975/AA7A8B9C922425D211B3E33A3B397627A314743B/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#header h1 {
+  color: #00125b;
+  padding: 40px 0px 20px;
+  text-shadow: #fff 1px 1px 3px;
+  float: left;
+  color: #fff;
+  font-family: "Exo", sans-serif;
+  font-size: 35px;
+  font-weight: 200px;
+}
+
+#header img {
+  padding: 40px 0px 0px 20px;
+  float: left;
+}
+
+#silebar {
+  width: 20%;
+  float: left;
+  border-right: 1px solid #bababa;
+  border-bottom: 1px solid #bababa;
+  border-left: 1px solid #bababa;
+  border-radius: 10px;
+}
+
+#judul_silebar {
+  padding: 3px;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid #bababa;
+  background-image: url(); /*Masukan gambar*/
+  color: #ffffff;
+  background-color: #2a475e;
+  border-radius: 5px;
+}
+
+#isi_silebar ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+#silebar a {
+  display: block;
+  padding: 5px;
+  border-bottom: 0px solid #bababa;
+  text-decoration: none;
+  font-size: medium;
+  color: black;
+
+  align-items: center;
+}
+
+#silebar a:hover {
+  background-color: rgb(39, 61, 74);
+  color: white;
+  font-size:larger;
+
+}
+
+#konten {
+  padding: 0px;
+  width: 100%;
+  float: left;
+  font-size: 11pt;
+  margin: 5px;
+  border-left: 1px solid #bababa;
+  border-right: 1px solid #bababa;
+  border-bottom: 1px solid #bababa;
+  border-top: 1px solid #bababa;
+}
+
+#footer {
+  background-image: url(); /*Masukan Gambar*/
+  height: 90px;
+}
+
+#footer #text {
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 11pt;
+  text-shadow: #000 1px 1px 2px;
+}
+
+/*Clas ku sendiri*/
+
+.header-utama {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 30px;
+}
+
+.konten-1 {
+  border-top: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  border-left: 1px solid #000000;
+  border-radius: 10px;
+  width: 352px; /*default 352px*/
+}
+
+.button-1 {
+  color: white;
+  background-color: green;
+  font-size: 20px;
+  width: 190px;
+}
+
+.button-1:hover {
+  background-color: rgb(255, 221, 67);
+}
+
+.button-2 {
+  color: white;
+  background-color: rgb(13, 42, 77);
+  font-size: 25px;
+  width: 500px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.button-2:hover {
+  background-color: rgb(39, 61, 74);
+}
